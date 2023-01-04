@@ -18,6 +18,7 @@ body {
   background-attachment: fixed;
 }
 
+/* --------------------------MENU--------------------------------- */
 #menu {
   display: flex;
   white-space: nowrap;
@@ -26,7 +27,6 @@ body {
 }
 
 ul#menu li {
-  /* display: inline; */
   font-size: 20px;
   list-style: none;
   font-family: rokkitt;
@@ -58,12 +58,14 @@ header {
   display: grid;
 }
 
+
+/* --------------------------FORSIDE--------------------------------- */
 h1 {
   font-family: Ms madi;
   font-size: 350px;
   color: rgb(255, 255, 255);
   text-align: center;
-  margin-top: 200px;
+  margin-top: 250px;
   font-weight: 20;
 }
 
@@ -73,10 +75,38 @@ h2 {
   color: rgb(255, 255, 255);
   text-align: center;
   font-variant: small-caps;
-  margin-bottom: 80px;
-  letter-spacing: 7px;
-  text-indent: 90px;
+  letter-spacing: 10px;
+  font-weight: 400;
 }
+
+
+/* --------------------------WEB--------------------------------- */
+
+.risteriet {
+  width: 50%;
+}
+
+/* --------------------------OM--------------------------------- */
+.om_mig {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding-top: 100px;
+  padding-left: 100px;
+}
+
+
+
+
+
+
+
+/*
+
+HOW TO MAKE A BUTTON 
+
+html
+<button></button>
+<a href="web.html" class="button">Læs mere</a>
 
 .button {
   background-color: #8e8d83;
@@ -92,3 +122,4 @@ h2 {
   cursor: pointer;
   font-family: rokkitt;
 }
+/*
