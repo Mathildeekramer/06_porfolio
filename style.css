@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+body {
+  background-image: url(billeder/bernard-hermant-1nDW7BjBj1s-unsplash.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+#menu {
+  display: flex;
+  white-space: nowrap;
+  padding-left: 20px;
+  gap: 15px;
+}
+
+ul#menu li {
+  /* display: inline; */
+  font-size: 20px;
+  list-style: none;
+  font-family: rokkitt;
+  font-variant: small-caps;
+  font-weight: 600;
+  letter-spacing: 7px;
+}
+
+header {
+  position: sticky;
+  top: 0;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: center;
+  padding: 40px;
+  background-color: rgba(255, 255, 255, 0.704);
+  z-index: 70;
+}
+
+#header-nav {
+  color: rgb(124, 78, 9);
+  grid-column: 1;
+  grid-row: 1;
+  display: grid;
+}
+
+h1 {
+  font-family: Ms madi;
+  font-size: 350px;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  margin-top: 200px;
+  font-weight: 20;
+}
+
+h2 {
+  font-family: rokkit;
+  font-size: 40px;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  font-variant: small-caps;
+  margin-bottom: 80px;
+  letter-spacing: 7px;
+  text-indent: 90px;
+}
+
+.button {
+  background-color: #8e8d83; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 50px;
+  place-self: center;
+  cursor: pointer;
+}
