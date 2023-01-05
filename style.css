@@ -30,7 +30,7 @@ h1 {
 
 h2 {
   font-family: rokkitt;
-  font-size: 40px;
+  font-size: 50px;
   color: rgb(255, 255, 255);
   font-variant: small-caps;
   letter-spacing: 10px;
@@ -42,6 +42,7 @@ p{
 font-family: rokkitt;
 font-size: 20px;
 color: white;
+line-height: 30px;
 }
 
 
@@ -92,40 +93,189 @@ header {
 
 .overskift {
 text-align: center;
-  margin-top: 250px;
+  margin-top: 200px;
   font-size: 200px;
 }
 
 
-/* --------------------------WEB--------------------------------- */
+/* --------------------------INDHOLD--------------------------------- */
 
-.risteriet {
- 
-  place-content: end;
-  padding-left: 500px;
+.youtube_video {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+    margin-top: 100px;
+    background-color: #afaea8;
+    padding-top: 70px;
+    padding-bottom: 70px;
 }
 
+
+
+
+
+/* --------------------------ANIMATION--------------------------------- */
+
+
+.overskrift_2 {
+    text-align: center;
+    font-size: 80px;
+    margin-top: 40px;
+}
+
+.billede_2 {
+    width: 80%;
+    margin-left: 200px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 100px;
+}
+
+/* --------------------------WEB--------------------------------- */
+
+.moodboard {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 50px;
+    width: 80%;
+    margin-top: 100px;
+    margin-left: 200px;
+}
+
+.web {
+    margin-top: 20px;
+    line-height: 28px;
+    
+}
+
+.tema {
+    margin-top: 150px;
+    text-align: center;
+    margin-left: 400px;
+    margin-right: 400px;
+    
+    
+}
+
+/* --------------------------UX--------------------------------- */
+
+
+
 /* --------------------------OM--------------------------------- */
+
 .mig {
-  padding-top: 200px;
-  padding-left: 50px;
-  width: 50%;
+  margin-top: 150px;
+  margin-left: 150px;
+  width: 70%;
 }
 
 .om {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    margin-right: 300px; 
+}
+
+.om_tekst {
+    line-height: 30px;
 }
 
 .om_overskrift {
   font-size: 100px;
-  margin-top: 150px;
-  margin-left: 100px;
+  margin-top: 100px;
   font-weight: 20;
 }
 
+.kontakt {
+    margin-bottom: 30px;
+    font-weight: 900;
+    font-variant: small-caps;
+    font-size: 200px;
+}
+
+.hr {
+    border-left: 5px solid rgb(255, 255, 255)
+}
+
+.mmd {
+    margin-top: 30px;
+}
+
+/* --------------------------FOOTER--------------------------------- */
+@media (min-width: 1000px) {
+  .footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5px;
+    background-color: var(--background-color);
+    padding-bottom: 40px;
+    padding-top: 40px;
+  }
+}
+.footer {
+  background-color: white;
+  margin-top: 300px;
+}
+
+.h1_footer {
+  color:#8e8d83;
+  font-size: 30px;
+  margin-top: 4%;
+  padding-left: 400px;
+  padding-right: 90px;
+  grid-area: 1/1;
+  margin-bottom: 12px;
+  font-family: rokkitt;
+  font-variant: small-caps;
+  font-weight: 900;
+  
+  
+}
+
+.p_footer {
+  font-size: 15px;
+  color: var(--footer-color);
+  padding: 5px;
+  padding-left: 400px;
+  padding-right: 90px;
+  padding-bottom: 8px;
+  font-family: "Heebo", sans-serif;
+  line-height: 20px;
+}
 
 
+/* --------------------------IKONER--------------------------------- */
+.ikoner{
+    margin-top: 100px;
+    text-align:justify;
+    
+}
+
+.fa {
+  padding: 20px;
+  font-size: 70px;
+  width: 60px;
+  text-align: center;
+  text-decoration: none;
+  
+  
+}
+
+.fa-facebook {
+  background: #8e8d83;
+  color: white;
+  margin-right: 30px;
+  
+}
+.fa-youtube {
+  background: #8e8d83;
+  color: white;
+  margin-right: 30px;
+}
+
+.fa-instagram {
+  background: #8e8d83;
+  color: white;
+}
 
 
 
