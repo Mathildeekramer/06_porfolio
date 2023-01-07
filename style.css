@@ -100,7 +100,8 @@ text-align: center;
 
 .underoverskrift {
     color: white;
-    font-size: 25px;
+    font-size: 40px;
+    margin-bottom: 60px;
 }
 
 
@@ -190,7 +191,7 @@ margin-right: 10px;
 
 .diagram {
     display: grid;
-    grid-template-columns: 1fr 2.6fr;
+    grid-template-columns: 1fr 1fr;
     width: 100%;
     text-align: center;
     gap: 60px;
@@ -199,20 +200,31 @@ margin-right: 10px;
      margin-top: 100px;
     background-color: #afaea8;
     padding: 100px;
-
     color: white;
+}
+
+.col_1 {
+  text-align: center;
+  padding: 100px;
 }
 
 .java {
   color: white;
   font-size: 60px;
-  margin-top: 100px;
+  margin-top: 200px;
   margin-bottom: 30px;
   text-align: center;
 }
 
 .java_tekst {
   text-align:justify;
+}
+
+.grid-diagram {
+  width: 30%;
+  text-align: center;
+  margin-left: 400px;
+  margin-top: 100px;
   
 }
 
@@ -349,7 +361,7 @@ margin-right: 10px;
   width: 60px;
   text-align: center;
   text-decoration: none;
-  
+  border-radius: 10px;
   
 }
 
@@ -385,14 +397,13 @@ margin-right: 10px;
   font-family: rokkitt;
   letter-spacing: 3px;
   font-variant: small-caps;
+  margin-top: 70px;
 }
 
 button {
-    margin-top: 200px;
-    margin-left: 500px;
+    margin-top: 100px;
+    margin-left: 100px;
 }
-
-
 
 
 
@@ -425,4 +436,32 @@ html
         <img src="billeder/wireframe_indhold.jpg" alt="wireframe" />
         <img src="billeder/moodboard_indhold.jpg" alt="moodbaord" />
         <img src="billeder/styletile_indhold.jpg" alt="styletile" />
+      </div>
+
+
+
+
+
+
+
+
+      <div class="diagram">
+        <h2>aktivitetsdiagram</h2>
+        <h2>statemachinediagram</h2>
+        <p>
+          Aktivitetsdiagrammet brugte jeg i starten af forløbet til at danne mig et overblik over spillets forløb, inden jeg gik igang med at kode. Metoden er en mere overordnet måde at skabe sig et overblik, lidt som når man bruger wireframes til
+          html.
+          <button></button>
+          <a href="animationsbilleder/aktivitetsdiagram.jpg" class="button">aktivitetsdiagram</a>
+        </p>
+
+        <p>
+          Statemachine diagrammet brugte jeg til at lave en plan for hvordan spillet helt konkret skal kodes. Her planlagde jeg hvilke navne og animationer der helt konkret skulle bruges til mit spil. En metode der er mere konkret med specifikke
+          navne, fremfor aktivitetsdiagram, der er mere overordnet.
+          <button></button>
+          <a href="animationsbilleder/statemachinediagram.jpg" class="button">statemachinediagram</a>
+        </p>
+
+        <div class="grid-diagram"><img src="animationsbilleder/aktivitetsdiagram.jpg" alt="aktivitetsdiagram" /></div>
+        <div class="grid-diagram"><img src="animationsbilleder/statemachinediagram.jpg" alt="statemachinediagram" /></div>
       </div>
