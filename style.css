@@ -11,12 +11,15 @@ img {
 }
 
 body {
-  background-image: url(billeder/bernard-hermant-1nDW7BjBj1s-unsplash.jpg);
+  background-image: url(billeder/baggrund.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Allison&family=Kadwa&family=Ms+Madi&family=Qwitcher+Grypen&family=Rokkitt:wght@100;400&display=swap');
+
 /* --------------------------GENRELT--------------------------------- */
 h1 {
   font-family: Ms madi;
@@ -30,19 +33,17 @@ h1 {
 
 h2 {
   font-family: rokkitt;
-  font-size: 50px;
-  color: rgb(255, 255, 255);
   font-variant: small-caps;
-  letter-spacing: 10px;
+  letter-spacing: 8px;
   font-weight: 400;
   text-align: center;
 }
 
 p{
-font-family: rokkitt;
-font-size: 20px;
+font-family: kadwa;
+font-size: 19px;
 color: white;
-line-height: 30px;
+line-height: 35px;
 }
 
 
@@ -97,19 +98,73 @@ text-align: center;
   font-size: 200px;
 }
 
+.underoverskrift {
+    color: white;
+    font-size: 25px;
+}
+
 
 /* --------------------------INDHOLD--------------------------------- */
 
 .youtube_video {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    font-size: 25px;
     text-align: center;
     margin-top: 100px;
     background-color: #afaea8;
     padding-top: 70px;
     padding-bottom: 70px;
+    color: white;
+    
 }
 
+
+
+.video {
+    width: 100%;
+    height: auto;
+   
+}
+
+
+.klik {
+    font-variant: small-caps;
+    text-align: center;
+    font-size: 15px;
+    color: #ffffff;
+}
+
+.bund_tekst{
+    text-align: justify;
+    padding-left: 80px;
+     padding-right: 80px;
+     padding-top: 30px;
+}
+
+.processen {
+    font-size: 150px;
+    margin-top: 200px;
+    margin-left: 60px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  
+ 
+}
+.grid-item {
+
+margin-top: 40px;
+margin-left: 200px;
+margin-right: 10px;
+  text-align:end;
+  width: 60%;
+  
+  
+}
 
 
 
@@ -131,6 +186,27 @@ text-align: center;
     margin-bottom: 100px;
 }
 
+.grid-container2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    width: 60%;
+    margin-left: 430px;
+    gap: 80px;
+}
+
+.diagram {
+    display: grid;
+    grid-template-columns: 1fr 2.6fr;
+    width: 100%;
+    text-align: center;
+    margin-top: 80px;
+    gap: 80px;
+    color: white;
+    font-size: 30px;
+
+}
+
 /* --------------------------WEB--------------------------------- */
 
 .moodboard {
@@ -140,6 +216,9 @@ text-align: center;
     width: 80%;
     margin-top: 100px;
     margin-left: 200px;
+    color: white;
+    font-size: 20px;
+
 }
 
 .web {
@@ -153,6 +232,9 @@ text-align: center;
     text-align: center;
     margin-left: 400px;
     margin-right: 400px;
+    color: white;
+    font-size: 30px;
+    
     
     
 }
@@ -189,7 +271,8 @@ text-align: center;
     margin-bottom: 30px;
     font-weight: 900;
     font-variant: small-caps;
-    font-size: 200px;
+    letter-spacing: 2px;
+
 }
 
 .hr {
@@ -277,6 +360,27 @@ text-align: center;
   color: white;
 }
 
+.button {
+  background-color: #727169;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  gap: 30px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  border-radius: 50px;
+  place-items: center;
+  cursor: pointer;
+  font-family: rokkitt;
+  letter-spacing: 3px;
+  font-variant: small-caps;
+}
+
+button {
+    margin-top: 200px;
+    margin-left: 500px;
+}
 
 
 
@@ -305,3 +409,10 @@ html
   font-family: rokkitt;
 }
 /*
+
+ <div class="risteriet">
+        <img src="billeder/layoutdiagram_indhold.png" alt="layoutdiagram" />
+        <img src="billeder/wireframe_indhold.jpg" alt="wireframe" />
+        <img src="billeder/moodboard_indhold.jpg" alt="moodbaord" />
+        <img src="billeder/styletile_indhold.jpg" alt="styletile" />
+      </div>
