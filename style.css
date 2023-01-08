@@ -68,7 +68,7 @@ ul#menu li {
 
 .subnavbtn {
   color: #8e8d83;
-  padding: 100px;
+  padding: 60px;
 }
 
 header {
@@ -90,6 +90,8 @@ header {
 }
 
 
+
+
 /* --------------------------FORSIDE--------------------------------- */
 
 .overskift {
@@ -107,6 +109,7 @@ text-align: center;
 
 /* --------------------------INDHOLD--------------------------------- */
 
+
 .youtube_video {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -117,10 +120,7 @@ text-align: center;
     padding-top: 70px;
     padding-bottom: 70px;
     color: white;
-    
 }
-
-
 
 .video {
     width: 100%;
@@ -134,6 +134,7 @@ text-align: center;
     text-align: center;
     font-size: 15px;
     color: #ffffff;
+    width: 100%;
 }
 
 .bund_tekst{
@@ -165,12 +166,13 @@ margin-right: 10px;
 
 /* --------------------------ANIMATION--------------------------------- */
 
-
+@media (min-width: 1500px) {
 .overskrift_2 {
     text-align: center;
-    font-size: 80px;
+    font-size: 45px;
     margin-top: 40px;
 }
+
 
 .billede_2 {
     width: 80%;
@@ -179,7 +181,20 @@ margin-right: 10px;
     grid-template-columns: 1fr 1fr;
     margin-bottom: 100px;
 }
+}
 
+.overskrift_2 {
+  text-align: center;
+  font-size: 45px;
+  margin-top: 40px;
+}
+
+.billede_2 {
+  padding: 70px;
+}
+
+
+@media (min-width: 1500px) {
 .grid-container2 {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -202,11 +217,28 @@ margin-right: 10px;
     padding: 100px;
     color: white;
 }
+}
+.grid-container2 {
+ margin-left: 400px;
+ 
+
+}
+
+.diagram{
+  color: white;
+  font-size: 30px;
+  background-color: #afaea8;
+  margin-top: 100px;
+}
+
+
+
 
 .col_1 {
   text-align: center;
   padding: 100px;
 }
+
 
 .java {
   color: white;
@@ -231,6 +263,7 @@ margin-right: 10px;
 
 /* --------------------------WEB--------------------------------- */
 
+@media (min-width: 1200px) {
 .moodboard {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -240,15 +273,26 @@ margin-right: 10px;
     margin-left: 200px;
     color: white;
     font-size: 20px;
-
 }
+}
+
+.moodboard {
+    width: 80%;
+    margin-top: 100px;
+    padding: 100px;
+    place-content: center;
+    color: white;
+    font-size: 20px;
+    margin-left: 100px;
+}
+
 
 .web {
     margin-top: 20px;
-    line-height: 28px;
-    
+    line-height: 28px;   
 }
 
+@media (min-width: 1200px) {
 .tema {
     margin-top: 200px;
     text-align: center;
@@ -256,6 +300,16 @@ margin-right: 10px;
     color: white;
     font-size: 30px; 
     background-color:#afaea8;
+}
+}
+
+.tema {
+  color: white;
+  font-size: 30px;
+  padding: 70px;
+  text-align: center;
+  background-color: #afaea8;
+  margin-top: 40px;
 }
 
 .emnesite {
@@ -279,18 +333,22 @@ margin-right: 10px;
   width: 70%;
 }
 
+@media (min-width: 1200px) {
 .om {
     display: grid;
     grid-template-columns: 1fr 1fr;
     margin-right: 300px; 
 }
+}
+
+
 
 .om_tekst {
     line-height: 30px;
 }
 
 .om_overskrift {
-  font-size: 100px;
+  font-size: 80px;
   margin-top: 100px;
   font-weight: 20;
 }
@@ -303,9 +361,7 @@ margin-right: 10px;
 
 }
 
-.hr {
-    border-left: 5px solid rgb(255, 255, 255)
-}
+
 
 .mmd {
     margin-top: 30px;
