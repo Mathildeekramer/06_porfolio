@@ -250,15 +250,21 @@ margin-right: 10px;
 }
 
 .tema {
-    margin-top: 150px;
-    text-align: justify;
-    margin-left: 200px;
-    margin-right: 200px;
+    margin-top: 200px;
+    text-align: center;
+    padding: 100px;
     color: white;
-    font-size: 30px;
-    
-    
-    
+    font-size: 30px; 
+    background-color:#afaea8;
+}
+
+.emnesite {
+  color: white;
+  margin-top: 50px;
+  margin-bottom: 10px;
+  margin-right: 800px;
+  font-size: 20px;
+  
 }
 
 /* --------------------------UX--------------------------------- */
@@ -383,7 +389,7 @@ margin-right: 10px;
 }
 
 .button {
-  background-color: #727169;
+  background-color: #78766d;
   border: none;
   color: white;
   padding: 15px 32px;
@@ -402,7 +408,7 @@ margin-right: 10px;
 
 button {
     margin-top: 100px;
-    margin-left: 100px;
+    margin-left: 300px;
 }
 
 
