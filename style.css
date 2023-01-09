@@ -51,11 +51,14 @@ line-height: 35px;
 
 /* --------------------------MENU--------------------------------- */
 
+
+@media (min-width: 1150px) {
 #menu {
   display: flex;
   white-space: nowrap;
   padding-left: 20px;
-  gap: 15px;
+  
+}
 }
 
 ul#menu li {
@@ -73,40 +76,49 @@ ul#menu li {
 }
 
 header {
-  position: sticky;
   top: 0;
   padding: 1rem 2rem;
   display: flex;
   justify-content: space-around;
   padding: 40px;
   background-color: rgba(255, 255, 255, 0.704);
-  z-index: 70;
 }
 
 #header-nav {
-  color: rgb(124, 78, 9);
-  grid-column: 1;
-  grid-row: 1;
-  display: grid;
+  text-align: center;
 }
+
+
 
 
 
 
 /* --------------------------FORSIDE--------------------------------- */
 
-.overskift {
+@media (min-width: 1000px) {
+.overskrift {
 text-align: center;
   margin-top: 200px;
-  font-size: 200px;
+  font-size: 250px;
 }
 
 .underoverskrift {
     color: white;
-    font-size: 40px;
+    font-size: 25px;
     margin-bottom: 60px;
 }
+}
 
+.overskrift {
+  text-align: center;
+  font-size: 100px;
+  margin-top: 200px;
+}
+
+.underoverskrift {
+  color: white;
+  font-size: 20px;
+}
 
 /* --------------------------INDHOLD--------------------------------- */
 
@@ -421,14 +433,13 @@ margin-top: 100px;
 }
 
 /* --------------------------FOOTER--------------------------------- */
-@media (min-width: 1000px) {
+@media (min-width: 950px) {
   .footer {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 5px;
-    background-color: var(--background-color);
     padding-bottom: 40px;
-    padding-top: 40px;
+  
   }
 }
 .footer {
@@ -440,8 +451,8 @@ margin-top: 100px;
   color:#8e8d83;
   font-size: 30px;
   margin-top: 4%;
-  padding-left: 400px;
-  padding-right: 90px;
+  margin-left: 200px;
+  margin-right: 100px;
   grid-area: 1/1;
   margin-bottom: 12px;
   font-family: rokkitt;
@@ -453,15 +464,19 @@ margin-top: 100px;
 
 .p_footer {
   font-size: 15px;
-  color: var(--footer-color);
+  font: kadwa;
+  color: #8e8d83;
   padding: 5px;
-  padding-left: 400px;
-  padding-right: 90px;
+  margin-left: 200px;
+  margin-right: 100px;
   padding-bottom: 8px;
   font-family: "Heebo", sans-serif;
   line-height: 20px;
 }
 
+.footer1{
+  text-align: center;
+}
 
 /* --------------------------IKONER--------------------------------- */
 .ikoner{
@@ -517,7 +532,8 @@ margin-top: 100px;
 
 button {
     margin-top: 100px;
-    margin-left: 300px;
+    margin-left: 200px;
+    
 }
 
 
