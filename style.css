@@ -37,6 +37,7 @@ h2 {
   letter-spacing: 8px;
   font-weight: 400;
   text-align: center;
+  margin-bottom: 20px;
 }
 
 p{
@@ -163,7 +164,9 @@ margin-right: 10px;
   text-align:end;
   width: 60%;
 }
-
+.grid-item2{
+  margin-top: 100px;
+}
 /* --------------------------ANIMATION--------------------------------- */
 
 @media (min-width: 1500px) {
@@ -214,7 +217,7 @@ margin-right: 10px;
     font-size: 30px;
      margin-top: 100px;
     background-color: #afaea8;
-    padding: 100px;
+   
     color: white;
 }
 }
@@ -230,9 +233,6 @@ margin-right: 10px;
   background-color: #afaea8;
   margin-top: 100px;
 }
-
-
-
 
 .col_1 {
   text-align: center;
@@ -257,8 +257,41 @@ margin-right: 10px;
   text-align: center;
   margin-left: 400px;
   margin-top: 100px;
-  
 }
+
+.assets {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+
+  padding: 100px;
+}
+
+.grid-asset1 {
+  width: 70%;
+}
+.grid-asset2 {
+width: 70%;
+margin-top: 100px;
+}
+.grid-asset3 {
+width: 70%;
+margin-top: 100px;
+}
+.grid-asset4 {
+  width: 60%;
+  margin-top: 80px;
+}
+.grid-asset5{
+  width: 70%;
+  margin-top: 170px;
+
+}
+.grid-asset6 {
+  width: 70%;
+  margin-top: 170px;
+
+}
+
 
 
 /* --------------------------WEB--------------------------------- */
@@ -273,17 +306,17 @@ margin-right: 10px;
     margin-left: 200px;
     color: white;
     font-size: 20px;
+    
 }
 }
 
 .moodboard {
     width: 80%;
-    margin-top: 100px;
-    padding: 100px;
+    padding-top: 100px;
     place-content: center;
     color: white;
     font-size: 20px;
-    margin-left: 100px;
+    margin: auto;
 }
 
 
@@ -323,17 +356,32 @@ margin-right: 10px;
 
 /* --------------------------UX--------------------------------- */
 
-
-
-/* --------------------------OM--------------------------------- */
-
-.mig {
-  margin-top: 150px;
-  margin-left: 150px;
-  width: 70%;
+.ux_billeder {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+ 
+  margin-top: 200px;
+  margin-left: 200px;
+  gap: 200px;
+  width: 100%;
 }
 
-@media (min-width: 1200px) {
+.ux_billeder_1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 400px;
+  margin-right: 500px;
+}
+
+/* --------------------------OM--------------------------------- */
+@media (min-width: 1400px) {
+.mig {
+  margin-top: 150px;
+  margin-left: 80px;
+  width: 40%;
+}
+
+
 .om {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -341,6 +389,13 @@ margin-right: 10px;
 }
 }
 
+.mig {
+  width: 80%;
+}
+
+.om {
+  padding: 80px;
+}
 
 
 .om_tekst {
@@ -360,8 +415,6 @@ margin-right: 10px;
     letter-spacing: 2px;
 
 }
-
-
 
 .mmd {
     margin-top: 30px;
