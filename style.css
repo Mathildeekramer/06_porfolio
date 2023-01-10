@@ -11,7 +11,7 @@ img {
 }
 
 body {
-  background-image: url(billeder/baggrund.jpg);
+  background-image: url(billeder/baggrund.webp);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -25,6 +25,7 @@ h1 {
   font-family: Ms madi;
   font-weight: 20;
   color: rgb(255, 255, 255);
+  margin-top: 100px;
 /*text-align: center;
   margin-top: 250px;
   font-size: 350px;
@@ -45,6 +46,7 @@ font-family: kadwa;
 font-size: 19px;
 color: white;
 line-height: 35px;
+margin-top: 10px;
 }
 
 
@@ -104,8 +106,8 @@ text-align: center;
 
 .underoverskrift {
     color: white;
-    font-size: 25px;
-    margin-bottom: 60px;
+    font-size: 20px;
+    
 }
 }
 
@@ -118,11 +120,12 @@ text-align: center;
 .underoverskrift {
   color: white;
   font-size: 20px;
+  margin-bottom: 100px;
 }
 
 /* --------------------------INDHOLD--------------------------------- */
 
-
+@media (min-width: 1750px) {
 .youtube_video {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -138,18 +141,18 @@ text-align: center;
 .video {
     width: 100%;
     height: auto;
-   
 }
-
-
 .klik {
     font-variant: small-caps;
     text-align: center;
     font-size: 15px;
-    color: #ffffff;
+    color: #565555;
     width: 100%;
+    font-family: rokkitt;
+    font-weight: 300;
+  
+  
 }
-
 .bund_tekst{
     text-align: justify;
     padding-left: 80px;
@@ -157,28 +160,68 @@ text-align: center;
      padding-top: 30px;
 }
 
-.processen {
-    font-size: 150px;
-    margin-top: 200px;
-    margin-left: 60px;
+}
+.klik {
+    font-variant: small-caps;
+    text-align: center;
+    font-size: 15px;
+    color: #565555;
+    width: 100%;
+    font-family: rokkitt;
+    font-weight: 300;
 }
 
+.video {
+  width: 100%;
+  height: auto;
+  display: block;
+  text-align: center;
+}
+
+.bund_tekst {
+  text-align: justify;
+  padding-left: 80px;
+  padding-right: 80px;
+}
+
+.processen {
+    font-size: 60px;
+    margin-bottom: 90px;
+    margin-top: 140px;
+    text-align: center;
+    color: white;
+    
+}
+
+@media (min-width: 1100px) {
 .grid-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
 }
-
+}
 .grid-item {
 margin-top: 40px;
 margin-left: 200px;
 margin-right: 10px;
-  text-align:end;
   width: 60%;
 }
 .grid-item2{
   margin-top: 100px;
 }
+
+.grid_video {
+  color: white;
+  font-size: 30px;
+}
+
+.button7 {
+font-weight: 400;
+margin-right: 180px;
+
+}
+
+
 /* --------------------------ANIMATION--------------------------------- */
 
 @media (min-width: 1500px) {
@@ -208,6 +251,12 @@ margin-right: 10px;
   padding: 70px;
 }
 
+.underoverskriften {
+  text-align: center;
+  font-size: 50px;
+  color: white;
+}
+
 
 @media (min-width: 1500px) {
 .grid-container2 {
@@ -234,7 +283,8 @@ margin-right: 10px;
 }
 }
 .grid-container2 {
- margin-left: 400px;
+ margin: auto;
+ padding: 40px;
  
 
 }
@@ -271,11 +321,13 @@ margin-right: 10px;
   margin-top: 100px;
 }
 
+@media (min-width: 900px) {
 .assets {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
-
   padding: 100px;
+  
+}
 }
 
 .grid-asset1 {
@@ -334,7 +386,8 @@ margin-top: 100px;
 
 .web {
     margin-top: 20px;
-    line-height: 28px;   
+    line-height: 28px;  
+    
 }
 
 @media (min-width: 1200px) {
@@ -363,27 +416,117 @@ margin-top: 100px;
   margin-bottom: 10px;
   margin-right: 800px;
   font-size: 20px;
+}
+
+.button8 {
+ font-weight: 400;
+ margin-right: 134px;
   
 }
 
 /* --------------------------UX--------------------------------- */
 
-.ux_billeder {
+@media (min-width: 1500px) {
+.ux_tekst {
   display: grid;
   grid-template-columns: 1fr 1fr;
- 
-  margin-top: 200px;
-  margin-left: 200px;
-  gap: 200px;
-  width: 100%;
+  padding: 60px;
 }
 
-.ux_billeder_1 {
+.ux_billeder {
+  margin-top: 40px;
+  margin-left: 100px;
+}
+
+.ux_button {
+  text-align: center;
+  margin-right: 170px;
+}
+
+.research {
+  color: white;
+  font-size: 40px;
+}
+
+.research_tekst {
+  text-align: justify;
+}
+}
+.research {
+  color: white;
+  font-size: 40px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+@media (min-width: 1500px) {
+.grid-containeren {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  margin-top: 400px;
-  margin-right: 500px;
+  margin-top: 200px;
 }
+
+.grid-container3 {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  gap: 50px;
+  width: 50%;
+  margin-left: 200px;
+}
+
+.grid-container4 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 50px;
+  width: 97%;
+  margin-right: 800px;
+}
+
+.grid-item6 {
+  color: white;
+  font-size: 25px;
+}
+
+.grid-item5 {
+  color: white;
+  font-size: 25px;
+}
+
+.grid-item4{
+  grid-row: span 1;
+  color: white;
+  font-size: 25px;
+}
+
+.grid-item3{
+  grid-row: span 1;
+  color: white;
+  font-size: 25px;
+  text-align: justify;
+}
+}
+
+.grid-item6 {
+  color: white;
+  font-size: 25px;
+}
+
+.grid-item5 {
+  color: white;
+  font-size: 25px;
+}
+
+.grid-item4{
+  grid-row: span 1;
+  color: white;
+  font-size: 25px;
+}
+
+.grid-item3{
+  grid-row: span 1;
+  color: white;
+  font-size: 25px;
+}
+
 
 /* --------------------------OM--------------------------------- */
 @media (min-width: 1400px) {
@@ -512,7 +655,7 @@ margin-top: 100px;
   color: white;
 }
 
-.button {
+.button, .button1, .button2, .button7, .button8 {
   background-color: #78766d;
   border: none;
   color: white;
@@ -527,14 +670,27 @@ margin-top: 100px;
   font-family: rokkitt;
   letter-spacing: 3px;
   font-variant: small-caps;
-  margin-top: 70px;
+  margin-top: 30px;
+  text-align: center;
+  
 }
 
 button {
-    margin-top: 100px;
-    margin-left: 200px;
+  margin-left: 200px;
+  margin-top: 100px;
     
 }
+
+.button1 {
+  margin-left: 100px;
+}
+
+.button2 {
+  padding: 14px 75px;
+  margin-left: 150px;
+
+}
+
 
 
 
