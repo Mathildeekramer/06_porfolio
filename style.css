@@ -18,18 +18,16 @@ body {
   background-attachment: fixed;
 }
 
-
-
 /* --------------------------GENRELT--------------------------------- */
 h1 {
   font-family: Ms madi;
   font-weight: 20;
   color: rgb(255, 255, 255);
   margin-top: 100px;
-/*text-align: center;
+  /*text-align: center;
   margin-top: 250px;
   font-size: 350px;
-  */ 
+  */
 }
 
 h2 {
@@ -41,26 +39,22 @@ h2 {
   margin-bottom: 20px;
 }
 
-p{
-font-family: kadwa;
-font-size: 15px;
-color: white;
-line-height: 35px;
-margin-top: 10px;
+p {
+  font-family: kadwa;
+  font-size: 15px;
+  color: white;
+  line-height: 35px;
+  margin-top: 10px;
 }
-
-
 
 /* --------------------------MENU--------------------------------- */
 
-
 @media (min-width: 1150px) {
-#menu {
-  display: flex;
-  white-space: nowrap;
-  padding-left: 20px;
-  
-}
+  #menu {
+    display: flex;
+    white-space: nowrap;
+    padding-left: 20px;
+  }
 }
 
 ul#menu li {
@@ -90,25 +84,19 @@ header {
   text-align: center;
 }
 
-
-
-
-
-
 /* --------------------------FORSIDE--------------------------------- */
 
 @media (min-width: 1000px) {
-.overskrift {
-text-align: center;
-  margin-top: 200px;
-  font-size: 250px;
-}
+  .overskrift {
+    text-align: center;
+    margin-top: 200px;
+    font-size: 250px;
+  }
 
-.underoverskrift {
+  .underoverskrift {
     color: white;
     font-size: 20px;
-    
-}
+  }
 }
 
 .overskrift {
@@ -125,8 +113,8 @@ text-align: center;
 
 /* --------------------------INDHOLD--------------------------------- */
 
-@media (min-width: 1750px) {
-.youtube_video {
+@media (min-width: 1400px) {
+  .youtube_video {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     font-size: 25px;
@@ -136,13 +124,13 @@ text-align: center;
     padding-top: 70px;
     padding-bottom: 70px;
     color: white;
-}
+  }
 
-.video {
+  .video {
     width: 100%;
     height: auto;
-}
-.klik {
+  }
+  .klik {
     font-variant: small-caps;
     text-align: center;
     font-size: 15px;
@@ -150,25 +138,22 @@ text-align: center;
     width: 100%;
     font-family: rokkitt;
     font-weight: 300;
-  
-  
-}
-.bund_tekst{
+  }
+  .bund_tekst {
     text-align: justify;
     padding-left: 80px;
-     padding-right: 80px;
-     padding-top: 30px;
-}
-
+    padding-right: 80px;
+    padding-top: 30px;
+  }
 }
 .klik {
-    font-variant: small-caps;
-    text-align: center;
-    font-size: 15px;
-    color: #565555;
-    width: 100%;
-    font-family: rokkitt;
-    font-weight: 300;
+  font-variant: small-caps;
+  text-align: center;
+  font-size: 15px;
+  color: #565555;
+  width: 100%;
+  font-family: rokkitt;
+  font-weight: 300;
 }
 
 .video {
@@ -185,28 +170,27 @@ text-align: center;
 }
 
 .processen {
-    font-size: 60px;
-    margin-bottom: 90px;
-    margin-top: 140px;
-    text-align: center;
-    color: white;
-    
+  font-size: 60px;
+  margin-bottom: 90px;
+  margin-top: 140px;
+  text-align: center;
+  color: white;
 }
 
 @media (min-width: 1100px) {
-.grid-container {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
-}
+  .grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
 }
 .grid-item {
-margin-top: 40px;
-margin-left: 200px;
-margin-right: 10px;
+  margin-top: 40px;
+  margin-left: 200px;
+  margin-right: 10px;
   width: 60%;
 }
-.grid-item2{
+.grid-item2 {
   margin-top: 100px;
 }
 
@@ -216,30 +200,26 @@ margin-right: 10px;
 }
 
 .button7 {
-font-weight: 400;
-margin-right: 180px;
-
+  font-weight: 400;
+  margin-right: 180px;
 }
-
-
 
 /* --------------------------ANIMATION--------------------------------- */
 
-@media (min-width: 1500px) {
-.overskrift_2 {
+@media (min-width: 1400px) {
+  .overskrift_2 {
     text-align: center;
     font-size: 45px;
     margin-top: 40px;
-}
+  }
 
-
-.billede_2 {
+  .billede_2 {
     width: 80%;
     margin-left: 200px;
     display: grid;
     grid-template-columns: 1fr 1fr;
     margin-bottom: 100px;
-}
+  }
 }
 
 .overskrift_2 {
@@ -258,18 +238,17 @@ margin-right: 180px;
   color: white;
 }
 
-
-@media (min-width: 1500px) {
-.grid-container2 {
+@media (min-width: 1400px) {
+  .grid-container2 {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     width: 60%;
     margin-left: 430px;
     gap: 80px;
-}
+  }
 
-.diagram {
+  .diagram {
     display: grid;
     grid-template-columns: 1fr 1fr;
     width: 100%;
@@ -277,20 +256,18 @@ margin-right: 180px;
     gap: 60px;
     color: white;
     font-size: 30px;
-     margin-top: 100px;
+    margin-top: 100px;
     background-color: #afaea8;
-   
+
     color: white;
-}
+  }
 }
 .grid-container2 {
- margin: auto;
- padding: 40px;
- 
-
+  margin: auto;
+  padding: 40px;
 }
 
-.diagram{
+.diagram {
   color: white;
   font-size: 30px;
   background-color: #afaea8;
@@ -302,7 +279,6 @@ margin-right: 180px;
   padding: 100px;
 }
 
-
 .java {
   color: white;
   font-size: 60px;
@@ -312,7 +288,7 @@ margin-right: 180px;
 }
 
 .java_tekst {
-  text-align:justify;
+  text-align: justify;
 }
 
 .grid-diagram {
@@ -323,46 +299,41 @@ margin-right: 180px;
 }
 
 @media (min-width: 900px) {
-.assets {
-  display: grid;
-  grid-template-columns: repeat(6, 1fr);
-  padding: 100px;
-  
-}
+  .assets {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    padding: 100px;
+  }
 }
 
 .grid-asset1 {
   width: 70%;
 }
 .grid-asset2 {
-width: 70%;
-margin-top: 100px;
+  width: 70%;
+  margin-top: 100px;
 }
 .grid-asset3 {
-width: 70%;
-margin-top: 100px;
+  width: 70%;
+  margin-top: 100px;
 }
 .grid-asset4 {
   width: 60%;
   margin-top: 80px;
 }
-.grid-asset5{
+.grid-asset5 {
   width: 70%;
   margin-top: 170px;
-
 }
 .grid-asset6 {
   width: 70%;
   margin-top: 170px;
-
 }
-
-
 
 /* --------------------------WEB--------------------------------- */
 
 @media (min-width: 1200px) {
-.moodboard {
+  .moodboard {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 50px;
@@ -371,35 +342,32 @@ margin-top: 100px;
     margin-left: 200px;
     color: white;
     font-size: 20px;
-    
-}
+  }
 }
 
 .moodboard {
-    width: 80%;
-    padding-top: 100px;
-    place-content: center;
-    color: white;
-    font-size: 20px;
-    margin: auto;
+  width: 80%;
+  padding-top: 100px;
+  place-content: center;
+  color: white;
+  font-size: 20px;
+  margin: auto;
 }
 
-
 .web {
-    margin-top: 20px;
-    line-height: 28px;  
-    
+  margin-top: 20px;
+  line-height: 28px;
 }
 
 @media (min-width: 1200px) {
-.tema {
+  .tema {
     margin-top: 200px;
     text-align: center;
     padding: 100px;
     color: white;
-    font-size: 30px; 
-    background-color:#afaea8;
-}
+    font-size: 30px;
+    background-color: #afaea8;
+  }
 }
 
 .tema {
@@ -420,38 +388,37 @@ margin-top: 100px;
 }
 
 .button8 {
- font-weight: 400;
- margin-right: 134px;
-  
+  font-weight: 400;
+  margin-right: 134px;
 }
 
 /* --------------------------UX--------------------------------- */
 
-@media (min-width: 1500px) {
-.ux_tekst {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  padding: 60px;
-}
+@media (min-width: 1400px) {
+  .ux_tekst {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 60px;
+  }
 
-.ux_billeder {
-  margin-top: 40px;
-  margin-left: 100px;
-}
+  .ux_billeder {
+    margin-top: 40px;
+    margin-left: 100px;
+  }
 
-.ux_button {
-  text-align: center;
-  margin-right: 170px;
-}
+  .ux_button {
+    text-align: center;
+    margin-right: 170px;
+  }
 
-.research {
-  color: white;
-  font-size: 40px;
-}
+  .research {
+    color: white;
+    font-size: 40px;
+  }
 
-.research_tekst {
-  text-align: justify;
-}
+  .research_tekst {
+    text-align: justify;
+  }
 }
 .research {
   color: white;
@@ -459,27 +426,51 @@ margin-top: 100px;
   margin-left: 100px;
   margin-right: 100px;
 }
-@media (min-width: 1500px) {
-.grid-containeren {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  margin-top: 200px;
-}
+@media (min-width: 1400px) {
+  .grid-containeren {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 200px;
+  }
 
-.grid-container3 {
-  display: grid;
-  grid-template-rows: 1fr 1fr;
-  gap: 50px;
-  width: 50%;
-  margin-left: 200px;
-}
+  .grid-container3 {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    gap: 50px;
+    width: 50%;
+    margin-left: 200px;
+  }
 
-.grid-container4 {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 50px;
-  width: 97%;
-  margin-right: 800px;
+  .grid-container4 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+    width: 97%;
+    margin-right: 800px;
+  }
+
+  .grid-item6 {
+    color: white;
+    font-size: 25px;
+  }
+
+  .grid-item5 {
+    color: white;
+    font-size: 25px;
+  }
+
+  .grid-item4 {
+    grid-row: span 1;
+    color: white;
+    font-size: 25px;
+  }
+
+  .grid-item3 {
+    grid-row: span 1;
+    color: white;
+    font-size: 25px;
+    text-align: justify;
+  }
 }
 
 .grid-item6 {
@@ -492,57 +483,31 @@ margin-top: 100px;
   font-size: 25px;
 }
 
-.grid-item4{
+.grid-item4 {
   grid-row: span 1;
   color: white;
   font-size: 25px;
 }
 
-.grid-item3{
-  grid-row: span 1;
-  color: white;
-  font-size: 25px;
-  text-align: justify;
-}
-}
-
-.grid-item6 {
-  color: white;
-  font-size: 25px;
-}
-
-.grid-item5 {
-  color: white;
-  font-size: 25px;
-}
-
-.grid-item4{
+.grid-item3 {
   grid-row: span 1;
   color: white;
   font-size: 25px;
 }
-
-.grid-item3{
-  grid-row: span 1;
-  color: white;
-  font-size: 25px;
-}
-
 
 /* --------------------------OM--------------------------------- */
 @media (min-width: 1400px) {
-.mig {
-  margin-top: 150px;
-  margin-left: 80px;
-  width: 40%;
-}
+  .mig {
+    margin-top: 150px;
+    margin-left: 80px;
+    width: 40%;
+  }
 
-
-.om {
+  .om {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    margin-right: 300px; 
-}
+    margin-right: 300px;
+  }
 }
 
 .mig {
@@ -553,9 +518,8 @@ margin-top: 100px;
   padding: 80px;
 }
 
-
 .om_tekst {
-    line-height: 30px;
+  line-height: 30px;
 }
 
 .om_overskrift {
@@ -565,15 +529,14 @@ margin-top: 100px;
 }
 
 .kontakt {
-    margin-bottom: 30px;
-    font-weight: 900;
-    font-variant: small-caps;
-    letter-spacing: 2px;
-
+  margin-bottom: 30px;
+  font-weight: 900;
+  font-variant: small-caps;
+  letter-spacing: 2px;
 }
 
 .mmd {
-    margin-top: 30px;
+  margin-top: 30px;
 }
 
 /* --------------------------FOOTER--------------------------------- */
@@ -583,7 +546,6 @@ margin-top: 100px;
     grid-template-columns: 1fr 1fr;
     gap: 5px;
     padding-bottom: 40px;
-  
   }
 }
 .footer {
@@ -592,7 +554,7 @@ margin-top: 100px;
 }
 
 .h1_footer {
-  color:#8e8d83;
+  color: #8e8d83;
   font-size: 30px;
   margin-top: 4%;
   margin-left: 200px;
@@ -602,8 +564,6 @@ margin-top: 100px;
   font-family: rokkitt;
   font-variant: small-caps;
   font-weight: 900;
-  
-  
 }
 
 .p_footer {
@@ -618,15 +578,14 @@ margin-top: 100px;
   line-height: 20px;
 }
 
-.footer1{
+.footer1 {
   text-align: center;
 }
 
 /* --------------------------IKONER--------------------------------- */
-.ikoner{
-    margin-top: 100px;
-    text-align:justify;
-    
+.ikoner {
+  margin-top: 100px;
+  text-align: justify;
 }
 
 .fa {
@@ -636,14 +595,12 @@ margin-top: 100px;
   text-align: center;
   text-decoration: none;
   border-radius: 10px;
-  
 }
 
 .fa-facebook {
   background: #8e8d83;
   color: white;
   margin-right: 30px;
-  
 }
 .fa-youtube {
   background: #8e8d83;
@@ -656,7 +613,11 @@ margin-top: 100px;
   color: white;
 }
 
-.button, .button1, .button2, .button7, .button8 {
+.button,
+.button1,
+.button2,
+.button7,
+.button8 {
   background-color: #78766d;
   border: none;
   color: white;
@@ -673,13 +634,11 @@ margin-top: 100px;
   font-variant: small-caps;
   margin-top: 30px;
   text-align: center;
-  
 }
 
 button {
   margin-left: 200px;
   margin-top: 100px;
-    
 }
 
 .button1 {
@@ -689,67 +648,4 @@ button {
 .button2 {
   padding: 14px 75px;
   margin-left: 150px;
-
 }
-
-
-
-
-/*
-
-HOW TO MAKE A BUTTON 
-
-html
-<button></button>
-<a href="web.html" class="button">Læs mere</a>
-
-.button {
-  background-color: #8e8d83;
-  border: none;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  border-radius: 50px;
-  place-items: center;
-  cursor: pointer;
-  font-family: rokkitt;
-}
-/*
-
- <div class="risteriet">
-        <img src="billeder/layoutdiagram_indhold.png" alt="layoutdiagram" />
-        <img src="billeder/wireframe_indhold.jpg" alt="wireframe" />
-        <img src="billeder/moodboard_indhold.jpg" alt="moodbaord" />
-        <img src="billeder/styletile_indhold.jpg" alt="styletile" />
-      </div>
-
-
-
-
-
-
-
-
-      <div class="diagram">
-        <h2>aktivitetsdiagram</h2>
-        <h2>statemachinediagram</h2>
-        <p>
-          Aktivitetsdiagrammet brugte jeg i starten af forløbet til at danne mig et overblik over spillets forløb, inden jeg gik igang med at kode. Metoden er en mere overordnet måde at skabe sig et overblik, lidt som når man bruger wireframes til
-          html.
-          <button></button>
-          <a href="animationsbilleder/aktivitetsdiagram.jpg" class="button">aktivitetsdiagram</a>
-        </p>
-
-        <p>
-          Statemachine diagrammet brugte jeg til at lave en plan for hvordan spillet helt konkret skal kodes. Her planlagde jeg hvilke navne og animationer der helt konkret skulle bruges til mit spil. En metode der er mere konkret med specifikke
-          navne, fremfor aktivitetsdiagram, der er mere overordnet.
-          <button></button>
-          <a href="animationsbilleder/statemachinediagram.jpg" class="button">statemachinediagram</a>
-        </p>
-
-        <div class="grid-diagram"><img src="animationsbilleder/aktivitetsdiagram.jpg" alt="aktivitetsdiagram" /></div>
-        <div class="grid-diagram"><img src="animationsbilleder/statemachinediagram.jpg" alt="statemachinediagram" /></div>
-      </div>
