@@ -18,7 +18,7 @@ body {
   background-attachment: fixed;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Allison&family=Kadwa&family=Ms+Madi&family=Qwitcher+Grypen&family=Rokkitt:wght@100;400&display=swap');
+
 
 /* --------------------------GENRELT--------------------------------- */
 h1 {
@@ -43,7 +43,7 @@ h2 {
 
 p{
 font-family: kadwa;
-font-size: 19px;
+font-size: 15px;
 color: white;
 line-height: 35px;
 margin-top: 10px;
@@ -608,7 +608,7 @@ margin-top: 100px;
 
 .p_footer {
   font-size: 15px;
-  font: kadwa;
+  font-family: kad;
   color: #8e8d83;
   padding: 5px;
   margin-left: 200px;
